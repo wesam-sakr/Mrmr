@@ -1,0 +1,39 @@
+body{
+    direction: ltr;
+}
+
+.navbar-brand img {
+    padding-right: 2rem !important;
+    padding-left: 0rem !important;
+}
+
+.fa-globe.ms-2{
+    margin-right: 0.5rem!important;
+    margin-left: 0rem!important;
+}
+.feature img {
+    padding-right: 2.2rem;
+    padding-left: 0rem;
+}
+.aboutApp .about-data i{
+    margin-left: 0rem;
+    margin-right: 1rem;
+}
+.contact {
+    border-radius: 20px 129px 20px 20px;
+}
+.contact .send{
+    left: -15px;
+    right: auto;
+    transform: rotateY(180deg);
+}
+.btn i {
+    margin-right: 0.5rem;
+    margin-left: 0rem;
+}
+
+@media (max-width: 567px){
+.contact {
+    border-radius: 20px 94px 20px 20px;
+}
+}
